@@ -281,32 +281,32 @@ let tek = `*✧${ucapan()} ${conn.getName(m.sender)}*
 *Ⓛ* = Limit
 
          「 *Ʋser Ɩnfσrmαtισn* 」
-🌸• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-🌸• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
-🌸• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-🌸• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
+• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 
 
 
          「 *Bσt Ɩnfσrmαtισn* 」
-🎐• *ᴜᴘᴛɪᴍᴇ:* ${mpt}
-🎐• *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
-🎐• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
-🎐• *ʟɪᴍɪᴛ:* ${usrs.limit}
-🎐• *ʟᴇᴠᴇʟ:* ${usrs.level}
-🎐• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
-🎐• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
+• *ᴜᴘᴛɪᴍᴇ:* ${mpt}
+• *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
+• *ʟɪᴍɪᴛ:* ${usrs.limit}
+• *ʟᴇᴠᴇʟ:* ${usrs.level}
+• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
+• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 
 
-               「 *Fangz BOT あ⁩* 」
+               「 *B-A-Y-U BOT あ⁩* 」
 `
 const listMessage = {
   text: tek,
   footer: 'By https://fangzbot.websites.co.in/\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `FANGZ BOT MENU`,
+  buttonText: `B-A-Y-U BOT MENU`,
   sections
 }
   if (teks == '404') {
