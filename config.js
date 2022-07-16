@@ -122,8 +122,8 @@ global.wm2 = '¸„٭⊹•~⍣°”ˆ˜¨ BOT-Md¨˜ˆ”°⍣~•⊹٭„¸'
 global.wm3 = '⫹⫺ 𝗕𝗢𝗧'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = '𝗥𝗣𝗚 | Whatsapp ʙᴏᴛ By FANGZ'
-global.author = '       ┄┄┄┅┅❑ FANGZ ❑┅┅┄┄┄'
+global.titlebot = '𝗥𝗣𝗚 | Whatsapp ʙᴏᴛ By BOT'
+global.author = '       ┄┄┄┅┅❑ BOT ❑┅┅┄┄┄'
 
 
 /*============== LOGO ==============*/
