@@ -45,35 +45,33 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/fangzganz?igshid=YmMyMTA2M2Y='
+global.sig = '_LAGI GA MAIN IG_'
 global.sgh = 'https://github.com/Fangzbotz2007'
-global.sgc = 'https://chat.whatsapp.com/HpxyS6b45SoGIKG7LHddiM'
-global.sdc = 'https://s.id/Fangzganz'
+global.sgc = 'https://chat.whatsapp.com/JhayGVECnRCBUMldIgZOOd'
+global.sdc = 'https://wa.me/6283183321692'
 global.snh = 'https://nhentai.net/g/365296/'
 
 /*============== PAYMENT ==============*/
-global.pdana = '088215689772'
+global.pdana = '-'
 global.povo = '088215689772'
-global.pgopay = '088215689772'
-global.ppulsa = '088215689772'
-global.ppulsa2 = '0895394988123'
-global.psaweria = 'https://saweria.co/FangzBot'
+global.pgopay = '-'
+global.ppulsa = '083183321692'
+global.ppulsa2 = '085830036793'
+global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '62895394988123'
-global.nomorown = '6288215689772'
-global.namebot = ' 「 FANGZ BOT ⁩㊣ 」'
-global.nameown = 'Fangz Ganz'
+global.nomorbot = '212775928935'
+global.nomorown = '6283183321692'
+global.namebot = ' 「 B-A-Y-U BOT ⁩㊣ 」'
+global.nameown = 'Bayu Bot'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6288215689772'],
-  ['62895336282144'],
-  ['6288215689772'],
-  ['6288215689772', 'Fangz Ganz', true]
-  // [number, dia creator/owner?, dia developer?]
-] // Put your number here
+  ['6283183321692'],
+  ['212775928935'],
+  ['6283183321692'],
+  ['6283183321692', 'Bayu Bot', true]  // [number, dia creator/owner?, dia developer?]
 global.mods = [] // Want some help?
 global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
@@ -117,13 +115,13 @@ global.APIKeys = { // APIKey Here
 
 /*============== WATERMARK ==============*/
 //GANTI SETERAH MU
-global.wm = '                「 Fangz BOT あ⁩ 」' //Main Watermark
-global.wm2 = '¸„٭⊹•~⍣°”ˆ˜¨ FangzBOT-Md¨˜ˆ”°⍣~•⊹٭„¸'
-global.wm3 = '⫹⫺ Fangz 𝗕𝗢𝗧'
+global.wm = '                「 B-A-Y-U BOT あ⁩ 」' //Main Watermark
+global.wm2 = '¸„٭⊹•~⍣°”ˆ˜¨Bayu-BOT¨˜ˆ”°⍣~•⊹٭„¸'
+global.wm3 = '⫹⫺ Bayu 𝗕𝗢𝗧'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = '𝗥𝗣𝗚 | Whatsapp ʙᴏᴛ By FANGZ'
-global.author = '       ┄┄┄┅┅❑ FANGZ ❑┅┅┄┄┄'
+global.titlebot = '𝗥𝗣𝗚 | Whatsapp ʙᴏᴛ By BAYU'
+global.author = '       ┄┄┄┅┅❑ BAYU ❑┅┅┄┄┄'
 
 
 /*============== LOGO ==============*/
